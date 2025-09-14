@@ -1,0 +1,8 @@
+[wrap-git]
+url = https://github.com/MKuranowski/MesonCargoSubprojectTest-Rust
+revision = HEAD
+depth = 1
+method = cargo
+
+[provide]
+dependency_names = gizmo-0.1-rs
