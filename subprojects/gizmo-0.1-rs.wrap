@@ -5,4 +5,4 @@ depth = 1
 method = cargo
 
 [provide]
-dependency_names = gizmo-0.1-rs
+dependency_names = gizmo-0.1-rs, gizmo-0.1-staticlib, gizmo-0.1-cdylib

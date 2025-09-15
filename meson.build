@@ -6,9 +6,10 @@ project(
   default_options : ['warning_level=3'],
 )
 
-subproject('gizmo')
+subproject('gizmo-0.1-rs')
 
 dependencies = [
+  dependency('gizmo', fallback: ['gizmo-0.1-rs', 'dep']),
 ]
 
 executable(
